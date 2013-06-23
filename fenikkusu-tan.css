@@ -1,6 +1,6 @@
 #bodyContent {
    /* Make the font readably large again. */
-  font-size: inherit;
+  font-size: 110%;
   /* And serifed.  Because I like serifs better for most body text. */
   font-family: Georgia, serif;
   /* Space things out a little bit more. */
