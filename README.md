@@ -30,6 +30,8 @@ http://en.wikipedia.org/wiki/User:Xiong_Chiamiov/vector.css .
 If you're having difficulties finding this, go to [your preferences] and click
 on the "Custom CSS" link.
 
+Then, do the same thing for `fenikkusu-tan.js`.
+
 # License
 
 Available under the [Creative Commons Attribution-ShareAlike license][by-sa].

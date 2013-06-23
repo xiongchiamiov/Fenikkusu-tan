@@ -1,5 +1,24 @@
 #bodyContent {
+   /* Make the font readably large again. */
   font-size: inherit;
+  /* And serifed.  Because I like serifs better for most body text. */
+  font-family: Georgia, serif;
+  /* Space things out a little bit more. */
+  line-height: 160%;
+}
+
+body {
+   /* Limit the width of the text so your eyes don't have to scan across so
+    * far. */
+   width: 40em;
+   /* And center it. */
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#content {
+   /* Get rid of the stupid blue border that exists for no apparent reason. */
+   border: 0 !important;
 }
 
 
@@ -376,9 +395,6 @@ body {
 div#content {
   margin-left: 0;
   padding: 1em;
-  /* Border on top, left, and bottom side */
-  border: 1px solid #a7d7f9;
-  border-right-width: 0;
   /* Merge the border with tabs' one (in their background image) */
   margin-top: -1px;
   background-color: white;
