@@ -1,5 +1,7 @@
 A rebirth of the Wikimedia Chick skin.
 
+![](peewee_by_rox159th-d4talel.png)
+
 In April of 2013, Wikimedia [removed several skins], including Chick, a
 no-nonsense content-focused skin.  Every one of the currently-supported skins
 has a sidebar filled with cruft, as well as lots of stuff on the top as well.
