@@ -1,0 +1,430 @@
+#bodyContent {
+  font-size: inherit;
+}
+
+
+/* From: https://meta.wikimedia.org/wiki/Tech/Archives/2013#Move_sidebar_links_to_bottom_.28similar_to_MySkin.29 */
+/* Head, shoulders, knees, and toes */
+div#mw-head {
+  position: static;
+  top: auto;
+  right: auto;
+  width: auto;
+}
+/* Personal */
+#p-personal {
+  position: static;
+  top: auto;
+  right: auto;
+  z-index: auto;
+}
+#p-personal h3,
+#p-personal h5 {
+  display: inline;
+}
+#p-personal ul {
+  list-style-type: disc;
+  list-style-image: none;
+  padding-left: 1em; /* Keep from overlapping logo */
+}
+/* @noflip */
+#p-personal li {
+  line-height: normal;
+  float: none;
+}
+/* Panel */
+div#mw-panel {
+  position: static;
+  top: auto;
+  padding-top: 0;
+  width: auto;
+  left: auto;
+}
+div#mw-panel div.portal {
+  padding-bottom: 0;
+  direction: ltr;
+}
+div#mw-panel div.portal h3,
+div#mw-panel div.portal h5 {
+  font-weight: normal;
+  color: #444;
+  padding: 0;
+  padding-top: 0;
+  padding-left: 0;
+  cursor: default;
+  border: none;
+  font-size: medium;
+}
+div#mw-panel div.portal div.body {
+  margin: 0;
+  padding-top: 0;
+  margin-left: 0;
+  /* @embed */
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+}
+div#mw-panel div.portal div.body ul {
+  list-style-type: none;
+  list-style-image: none;
+  padding: 0;
+  margin: 0;
+}
+div#mw-panel div.portal div.body ul li {
+  line-height: normal;
+  padding: 0;
+  padding-bottom: 0;
+  margin: 0;
+  font-size: 0.75em;
+  word-wrap: break-word;
+}
+/* Navigation Containers */
+#left-navigation {
+  position: static;
+  left: auto;
+  top: auto;
+}
+#right-navigation {
+  float: none;
+  margin-top: 0;
+}
+/* Navigation Labels */
+div.vectorTabs h3,
+div.vectorTabs h5,
+div.vectorMenu h3 span,
+div.vectorMenu h5 span {
+  display: inline;
+}
+/* Namespaces and Views */
+/* @noflip */
+div.vectorTabs {
+  float: none;
+  height: auto;
+}
+div.vectorTabs {
+  /* @embed */
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  padding-left: 0;
+}
+/* @noflip */
+div.vectorTabs ul {
+  float: none;
+}
+div.vectorTabs ul {
+  height: auto;
+  list-style-type: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+/* @noflip */
+div.vectorTabs ul li {
+  float: none;
+}
+/* OVERRIDDEN BY COMPLIANT BROWSERS */
+div.vectorTabs ul li {
+  line-height: normal;
+  display: inline;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+  /* @embed */
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  white-space: nowrap;
+}
+/* IGNORED BY IE6 */
+div.vectorTabs ul > li {
+  display: inline;
+}
+div.vectorTabs li.selected {
+  /* @embed */
+  background-image: none;
+}
+/* OVERRIDDEN BY COMPLIANT BROWSERS */
+div.vectorTabs li a {
+  display: inline;
+  height: auto;
+  padding-left: 0;
+  padding-right: 0;
+  color: #0645ad;
+  cursor: pointer;
+  font-size: medium;
+}
+/* IGNORED BY IE6 */
+div.vectorTabs li > a {
+  display: inline;
+}
+div.vectorTabs li.icon a {
+  background-position: bottom right;
+  background-repeat: repeat;
+}
+/* OVERRIDDEN BY COMPLIANT BROWSERS */
+div.vectorTabs span a  {
+  display: inline;
+  padding-top: 0;
+}
+/* IGNORED BY IE6 */
+/* @noflip */
+div.vectorTabs span > a {
+  float: none;
+  display: inline;
+}
+div.vectorTabs span {
+  display: inline;
+  /* @embed */
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+}
+div.vectorTabs li.selected a,
+div.vectorTabs li.selected a:visited{
+  color: #333;
+  text-decoration: none;
+}
+div.vectorTabs li.new a,
+div.vectorTabs li.new a:visited{
+  color: #a55858;
+}
+/* Variants and Actions */
+/* @noflip */
+div.vectorMenu {
+  direction: ltr;
+  float: none;
+  /* @embed */
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+div.vectorMenuFocus {
+  /* @embed */
+  background-image: none;
+  background-position: 0% 0%;
+}
+/* @noflip */
+body.rtl div.vectorMenu {
+  direction: rtl;
+}
+/* OVERRIDDEN BY COMPLIANT BROWSERS */
+/* @noflip */
+div#mw-head div.vectorMenu h3,
+div#mw-head div.vectorMenu h5 {
+  float: none;
+  /* @embed */
+  background-image: none;
+  background-repeat: no-repeat;
+}
+/* This will be flipped - unlike the one above it */
+div#mw-head div.vectorMenu h3,
+div#mw-head div.vectorMenu h5 {
+  background-position: bottom left;
+  margin-left: 0;
+}
+/* IGNORED BY IE6 */
+div#mw-head div.vectorMenu > h3,
+div#mw-head div.vectorMenu > h5 {
+  background-image: none;
+}
+div#mw-head div.vectorMenu h4,
+div.vectorMenu#p-variants #mw-vector-current-variant {
+  display: inline;
+  float: none;
+  font-size: medium;
+  padding-left: 0;
+  padding-top: 0;
+  font-weight: normal;
+  border: none;
+}
+/* OVERRIDDEN BY COMPLIANT BROWSERS */
+/* @noflip */
+div.vectorMenu h3 a,
+div.vectorMenu h5 a {
+  display: inline;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  /* @embed */
+  background-image: none;
+  background-repeat: no-repeat;
+}
+/* This will be flipped - unlike the one above it */
+div.vectorMenu h3 a,
+div.vectorMenu h5 a {
+  background-position: bottom right;
+}
+/* IGNORED BY IE6 */
+div.vectorMenu h3 > a,
+div.vectorMenu h5 > a {
+  display: inline;
+}
+div.vectorMenu div.menu {
+  position: relative;
+  display: none;
+  clear: both;
+  text-align: left;
+}
+/* OVERRIDDEN BY COMPLIANT BROWSERS */
+/* @noflip */
+body.rtl div.vectorMenu div.menu {
+  margin-left: 0;
+}
+/* IGNORED BY IE6 */
+/* @noflip */
+body.rtl div.vectorMenu > div.menu {
+  margin-left: 0;
+}
+/* IGNORED BY IE6 */
+/* Also fixes old versions of FireFox */
+/* @noflip */
+body.rtl div.vectorMenu > div.menu,
+x:-moz-any-link {
+  margin-left: 0;
+}
+/* Enable forcing showing of the menu for accessibility */
+div.vectorMenu:hover div.menu,
+div.vectorMenu div.menuForceShow {
+  display: inline;
+}
+div.vectorMenu ul {
+  position: static;
+  background-color: white;
+  border: solid 1px silver;
+  border-top-width: 0;
+  list-style-type: none;
+  list-style-image: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 0;
+  text-align: left;
+}
+/* Fixes old versions of FireFox */
+div.vectorMenu ul,
+x:-moz-any-link {
+  min-width: 5em;
+}
+/* Returns things back to normal in modern versions of FireFox */
+div.vectorMenu ul,
+x:-moz-any-link,
+x:default {
+  min-width: 0;
+}
+div.vectorMenu li {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  line-height: normal;
+}
+/* OVERRIDDEN BY COMPLIANT BROWSERS */
+div.vectorMenu li a {
+  display: inline;
+  padding: 0;
+  white-space: nowrap;
+  color: #0645ad;
+  cursor: pointer;
+  font-size: medium;
+}
+/* IGNORED BY IE6 */
+div.vectorMenu li > a {
+  display: inline;
+}
+div.vectorMenu li.selected a,
+div.vectorMenu li.selected a:visited {
+  color: #333;
+  text-decoration: none;
+}
+div.vectorTabs ul {
+  /* @embed */
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+}
+/* Search */
+#p-search h3,
+#p-search h5 {
+  display: inline;
+}
+/* @noflip */
+#p-search {
+  float: none;
+}
+/* Bring me back to life */
+#mw-navigation h2 {
+  position: static;
+  top: auto;
+}
+/* Hakuna matata */
+body {
+  background-color: transparent;
+}
+#bodyContent {
+  position: static;
+  width: 100%;
+}
+#mw-page-base {
+  height: auto;
+  background-color: transparent;
+  /* @embed */
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat-x;
+}
+div#content {
+  margin-left: 0;
+  padding: 1em;
+  /* Border on top, left, and bottom side */
+  border: 1px solid #a7d7f9;
+  border-right-width: 0;
+  /* Merge the border with tabs' one (in their background image) */
+  margin-top: -1px;
+  background-color: white;
+  color: black;
+  direction: ltr;
+}
+/* Footer */
+div#footer {
+  margin-left: 0;
+  margin-top: 0;
+  padding: 0;
+  direction: ltr;
+}
+div#footer ul {
+  list-style-type: disc;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+div#footer ul li {
+  margin: 0;
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #333;
+  font-size: medium;
+}
+div#footer #footer-icons {
+  float: none;
+}
+/* @noflip */
+body.ltr div#footer #footer-places {
+  float: none;
+}
+div#footer #footer-info li {
+  line-height: normal;
+}
+div#footer #footer-icons li {
+  float: none;
+  margin-left: 0;
+  line-height: normal;
+  text-align: left;
+}
+div#footer #footer-places li {
+  float: none;
+  margin-right: 0;
+  line-height: normal;
+}
+
